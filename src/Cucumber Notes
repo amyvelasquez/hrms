@@ -1,0 +1,74 @@
+Cucumber - a tool that supports BDD (Behavior Driven Development) and is written using Gherkin syntax
+BDD - agile software development process which encourages collaboration among devs, QA testers, and non technical
+      or business people/participants in software project development
+
+Gherkin syntax - Given = precondition
+                 When = action
+                 And = continues action/precondition/result
+                 Then = expected result/outcome
+                 But = exclusion
+
+Feature - a file in which Cucumber test scenarios are written. Ends with .feature extension
+Steps - used to link feature file's scenarios
+Pages - to define locators and other functions
+
+Definition of Ready - when user story is clear, testable, defined, and sized
+Definition of Done - when user story is ready to deploy on production after testing
+
+User Story - User is able to search employee in hrms app
+Acceptance Criteria -
+
+Eclipse IDE -
+cucumber plugin
+natural plugin
+
+Intellij IDE -
+cucumber for java and gherkin
+
+Scenario 1 - search by ID
+
+Given user opens browser and navigates to HRMS
+And user logs in as admin
+And user navigates to the employee list page
+When user enters valid employee ID
+And user clicks on search button
+Then user is able to see employee in the employee table
+
+
+Scenario 2 - search by name
+
+Given user opens browser and navigates to HRMS
+And user logs in as admin
+And user navigates to the employee list page
+When user enters valid first and last name
+And user clicks on search button
+Then user is able to see employee in the employee table
+
+US 98903 - Login
+valid admin credentials
+valid ess employee credentials
+valid username and invalid password for error check
+
+Runner class - class where we run tests with cucumber options such as glue, dryRun, monochrome, tags
+glue - checks all the step definition implementation of gherkin steps
+dry run - if it set to true, no actual execution happens, quickly scan all the files to check steps are there
+monochrome - makes console log more readable
+tags - we control the flow of execution of our scenarios with the help of tags
+background -
+
+Hooks - preconditions (ex: start up or teardown methods)
+@Before, @After methods allow us to set preconditions in Hooks class that
+apply to all scenarios such as starting up/closing a browser
+
+io.cucumber.java.After; may need to manually import when using @Before/@After annotations in hooks
+io.cucumber.java.Before;
+
+Background: used to avoid repetition of steps in feature files. any steps that need to
+be repeated should be used under background
+
+@Before --> @Background --> Scenario
+
+Maven Cucumber Report
+1. add plugin to runner class - plugin will generate .json file
+2. add maven cucumber plugin to pom xml file, specify configuration in pom file
+3. attach screenshots to cucumber report

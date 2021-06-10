@@ -1,0 +1,16 @@
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/runners/FailedRunner.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/utils/ExcelReading.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/runners/SmokeRunner.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/steps/AddEmployeeSteps.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/pages/AddEmployeePage.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/pages/EmployeeListPage.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/pages/LoginPage.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/utils/CommonMethods.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/utils/Constants.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/steps/LoginSteps.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/pages/DashboardPage.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/steps/Hooks.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/steps/EmployeeSearchSteps.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/steps/DashboardSteps.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/runners/RegressionRunner.java
+/Users/amyvelasquez/IdeaProjects/HRMS/src/test/java/utils/ConfigReader.java
